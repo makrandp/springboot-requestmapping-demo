@@ -29,7 +29,7 @@ public class UserController {
 		return "User Id : " + id;
 	}
 	
-	@GetMapping("/{name}")
+	@GetMapping("hello/{name}")
 	public String displayUserName(@PathVariable("name") String name)
 	{
 		return "Hello, " + name;
